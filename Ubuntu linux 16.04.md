@@ -9,5 +9,7 @@
   sudo apt-get update ##更新
   wget https://www.apachefriends.org/xampp-files/7.2.11/xampp-linux-x64-7.2.11-0-installer.run  ##官網的最新下載連結
   chmod +x xampp-linux-x64-7.2.11-0-installer.run ##開啟執行權限
-  ./xampp-linux-x64-7.2.11-0-installer.run  ##執行
+  ./xampp-linux-x64-7.2.11-0-installer.run  ##執行xampp安裝檔
+  sudo /opt/lampp/xampp start  ##到/opt/lampp/裡面的xampp 並且執行他
+  
   
