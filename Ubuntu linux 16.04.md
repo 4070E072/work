@@ -3,7 +3,8 @@
   ps aux | grep apt
   kill processnumber
   kill -9 processnumber
-  sudo rm /var/lib/dpkg/lock
+  sudo rm -f /var/lib/dpkg/lock
+  sudo rm /var/lib/apt/lists/* -vf
   sudo dpkg --configure -a
  ```
  # XAMPP
